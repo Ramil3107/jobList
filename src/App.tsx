@@ -1,10 +1,14 @@
+import { Route, Routes } from "react-router-dom";
+import { DetailedJob } from "./pages/DetailedJob/DetailedJob";
+import { JobList } from "./pages/JobList/JobList";
 
 
 function App() {
   return (
-    <h1 className="text-5xl">
-      Hello world!
-    </h1>
+   <Routes>
+    <Route path="/" element={<JobList />}/>
+    <Route path="job-details" element={<DetailedJob />}/>
+   </Routes>
   );
 }
 
