@@ -4,7 +4,7 @@ export const MainContent = () => {
     return (
 
         //Wrapper
-        <div className="flex border
+        <div className="flex
         lg:w-[70%] lg:h-[90%]
          md:w-[70%] md:h-[90%]
          sm:w-[100%] sm:h-[75%]">

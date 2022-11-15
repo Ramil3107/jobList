@@ -2,7 +2,7 @@ import { MdBookmarkBorder } from "react-icons/md";
 
 export const Activity = () => {
     return (
-        <div className="border
+        <div className="
         lg:w-[15%] lg:h-[90%] lg:flex lg:flex-col lg:justify-between
         md:w-[15%] md:h-[90%] md:flex md:flex-col md:justify-between
         sm:w-[40%] sm:h-[15%] sm:flex sm:flex-wrap sm:justify-end items-end">
